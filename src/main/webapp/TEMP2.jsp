@@ -1,0 +1,89 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+  	<servlet-name>TodoDelete</servlet-name>
+  	<display-name>TodoDelete</display-name>
+  	<description></description>
+  	<servlet-class>com.files.TodoDelete</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TodoEdit</servlet-name>
+  	<display-name>TodoEdit</display-name>
+  	<description></description>
+  	<servlet-class>com.files.TodoEdit</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TodoDisplay</servlet-name>
+  	<display-name>TodoDisplay</display-name>
+  	<description></description>
+  	<servlet-class>com.files.TodoDisplay</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TodoStatus</servlet-name>
+  	<display-name>TodoStatus</display-name>
+  	<description></description>
+  	<servlet-class>com.files.TodoStatus</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.files.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>registration</servlet-name>
+  	<display-name>registration</display-name>
+  	<description></description>
+  	<servlet-class>com.files.registration</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>forgotpassword</servlet-name>
+  	<display-name>forgotpassword</display-name>
+  	<description></description>
+  	<servlet-class>com.files.forgotpassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.files.Logout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>TodoDelete</servlet-name>
+  	<url-pattern>/TodoDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TodoEdit</servlet-name>
+  	<url-pattern>/TodoEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TodoDisplay</servlet-name>
+  	<url-pattern>/TodoDisplay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TodoStatus</servlet-name>
+  	<url-pattern>/TodoStatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>registration</servlet-name>
+  	<url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>forgotpassword</servlet-name>
+  	<url-pattern>/forgotpassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+</web-app>
